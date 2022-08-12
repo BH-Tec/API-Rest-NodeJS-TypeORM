@@ -19,6 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Node.js
 - TypeScript
 - TypeORM
+- Beekeeper
 
 ## 💻 Projeto
 
@@ -26,10 +27,10 @@ Projeto do curso "Criando uma API Rest com Node.js e TypeORM" da DIO.
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
-
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
 ## :memo: Aulas
 
 Parte 1: Entendendo o TypeORM
@@ -47,8 +48,26 @@ Parte 2: Criando a API
 
 Parte 3: Configurando o TypeORM
 
-- Configurando o TypeORM
-- Migrations e Entities
-- QueryBuilder
+- Configurando o TypeORM ✅
+- Migrations e Entities ✅
+- QueryBuilder ✅
+
+Parte 4: Testes automatizados
+
+- Configurando o Jest
+- Escrevendo nosso primeiro teste e os primeiros mocks
+- Escrevendo os testes do Controller
+- Finalizando os testes do Controller
+- Escrevendo os testes do Service
+
+Parte 5: TDD
+
+- Conhecendo o TDD
+- Criando os dados para teste
+- Criando o service para atualizar o usuário com TDD
+- Criando o controller para atualizar o usuário com TDD
+- Criando a rota para deletar o usuário com TDD
+
+Avaliação
 
 ---
