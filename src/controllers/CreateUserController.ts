@@ -13,12 +13,12 @@ class CreateUserController {
 
         if(nome.length === 0) {
             return response.status(400).json({
-                error: 'Nome não pode ser vazio'
+                error: 'Nome obrigatório'
             })
         }
         const user = await createUserService.execute({id, nome, email});
 
-        return response.status(201).json({user});
+        return response.status(201).json(user);
     }
 }
 

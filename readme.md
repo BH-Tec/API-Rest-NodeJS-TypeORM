@@ -20,6 +20,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - TypeScript
 - TypeORM
 - Beekeeper
+- [Jest](https://jestjs.io/)
 
 ## 💻 Projeto
 
@@ -54,11 +55,11 @@ Parte 3: Configurando o TypeORM
 
 Parte 4: Testes automatizados
 
-- Configurando o Jest
-- Escrevendo nosso primeiro teste e os primeiros mocks
-- Escrevendo os testes do Controller
-- Finalizando os testes do Controller
-- Escrevendo os testes do Service
+- Configurando o Jest ✅
+- Escrevendo nosso primeiro teste e os primeiros mocks ✅
+- Escrevendo os testes do Controller ✅
+- Finalizando os testes do Controller ✅
+- Escrevendo os testes do Service ✅
 
 Parte 5: TDD
 
