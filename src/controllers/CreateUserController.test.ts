@@ -1,7 +1,7 @@
 import createConnection  from '../database';
 import { CreateUserController } from './CreateUserController';
 import { Request } from 'express';
-import { mockMockResponse } from '../utils/mocks/mockResponse';
+import { makeMockResponse } from '../utils/mocks/mockResponse';
 import { getConnection } from 'typeorm';
 
 
@@ -18,7 +18,7 @@ describe('CreateUserController', () => {
 
     const createUserController = new CreateUserController();
     
-    const response = mockMockResponse();
+    const response = makeMockResponse();
 
         it('Deve retornar status 201 quando usuario for criado', async() => {        
         

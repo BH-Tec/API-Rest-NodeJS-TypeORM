@@ -7,7 +7,7 @@ export type MockResponse<TResult> = Response & {
     }
 }
 
-export function mockMockResponse<TResult>() {
+export function makeMockResponse<TResult>() {
     const response = {
         state: {}
     } as MockResponse<TResult>;
