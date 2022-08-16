@@ -63,12 +63,12 @@ Parte 4: Testes automatizados
 
 Parte 5: TDD
 
-- Conhecendo o TDD
-- Criando os dados para teste
-- Criando o service para atualizar o usuário com TDD
-- Criando o controller para atualizar o usuário com TDD
-- Criando a rota para deletar o usuário com TDD
+- Conhecendo o TDD ✅
+- Criando os dados para teste ✅
+- Criando o service para atualizar o usuário com TDD ✅
+- Criando o controller para atualizar o usuário com TDD ✅
+- Criando a rota para deletar o usuário com TDD ✅
 
-Avaliação
+Avaliação: 72%
 
 ---
